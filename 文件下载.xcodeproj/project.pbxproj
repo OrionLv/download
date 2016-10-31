@@ -13,6 +13,7 @@
 		EDFB13201DBA15E3001BFF8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDFB131E1DBA15E3001BFF8E /* Main.storyboard */; };
 		EDFB13221DBA15E3001BFF8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDFB13211DBA15E3001BFF8E /* Assets.xcassets */; };
 		EDFB13251DBA15E3001BFF8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDFB13231DBA15E3001BFF8E /* LaunchScreen.storyboard */; };
+		EDFB13311DBA350C001BFF8E /* XBDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFB13301DBA350C001BFF8E /* XBDownloadManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		EDFB13211DBA15E3001BFF8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDFB13241DBA15E3001BFF8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDFB13261DBA15E3001BFF8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDFB132F1DBA350C001BFF8E /* XBDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBDownloadManager.h; sourceTree = "<group>"; };
+		EDFB13301DBA350C001BFF8E /* XBDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBDownloadManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +65,8 @@
 				EDFB13191DBA15E2001BFF8E /* AppDelegate.m */,
 				EDFB131B1DBA15E2001BFF8E /* ViewController.h */,
 				EDFB131C1DBA15E2001BFF8E /* ViewController.m */,
-				EDFB131E1DBA15E3001BFF8E /* Main.storyboard */,
-				EDFB13211DBA15E3001BFF8E /* Assets.xcassets */,
-				EDFB13231DBA15E3001BFF8E /* LaunchScreen.storyboard */,
-				EDFB13261DBA15E3001BFF8E /* Info.plist */,
+				EDFB132F1DBA350C001BFF8E /* XBDownloadManager.h */,
+				EDFB13301DBA350C001BFF8E /* XBDownloadManager.m */,
 				EDFB13151DBA15E2001BFF8E /* Supporting Files */,
 			);
 			path = "文件下载";
@@ -74,6 +75,10 @@
 		EDFB13151DBA15E2001BFF8E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EDFB131E1DBA15E3001BFF8E /* Main.storyboard */,
+				EDFB13211DBA15E3001BFF8E /* Assets.xcassets */,
+				EDFB13231DBA15E3001BFF8E /* LaunchScreen.storyboard */,
+				EDFB13261DBA15E3001BFF8E /* Info.plist */,
 				EDFB13161DBA15E2001BFF8E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -152,6 +157,7 @@
 				EDFB131D1DBA15E2001BFF8E /* ViewController.m in Sources */,
 				EDFB131A1DBA15E2001BFF8E /* AppDelegate.m in Sources */,
 				EDFB13171DBA15E2001BFF8E /* main.m in Sources */,
+				EDFB13311DBA350C001BFF8E /* XBDownloadManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
